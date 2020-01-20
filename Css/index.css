@@ -1,0 +1,197 @@
+﻿body {
+    background: #eee;
+}
+
+#baslik {
+    background: gray;
+    position: absolute;
+    padding-top: 3px;
+    left: 700px;
+    top: 55px;
+    border: 10px;
+    border-color: black;
+    height: 50px;
+    width: 500px;
+    font-size: 37pt;
+    color: white;
+    font-family: 'Tahoma';
+}
+
+
+#resim {
+    background: floralwhite;
+    position: absolute;
+    padding-top: 3px;
+    left: 8px;
+    top: 5px;
+    border: 10px;
+    border-color: black;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#baslikalti {
+    background: gray;
+    height: 120px;
+}
+
+
+.sol {
+    position: absolute;
+    top: 200px;
+    margin-top: 90px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+#resim2 {
+    margin-left: 0px;
+    padding-top: 121px;
+    margin-right: 5px;
+}
+
+
+#footer {
+    height: 150px;
+    width: 100%;
+    margin-left: -300px;
+    margin-top: 498px;
+    background: dimgrey;
+}
+
+.footer {
+    position: absolute;
+    left: 300px;
+    width: 500px;
+}
+
+    .footer ul li {
+        float: left;
+        font-size: 18px;
+        text-align: center;
+        margin: 5px;
+    }
+
+        .footer ul li a {
+            display: block;
+            padding: 15px;
+            color: #ddd;
+            font-family: 'Tahoma';
+        }
+
+            .footer ul li a:hover {
+                color: dodgerblue;
+                text-decoration: none;
+            }
+
+
+    .footer p {
+        color: #969696;
+    }
+
+
+#footer p {
+    margin-left: 300px;
+}
+
+#footer b {
+    border-width: bold;
+    color: white;
+    font-size: 25px;
+}
+
+
+/*
+menubar kodları
+*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-menu {
+    width: 500px;
+    height: 35px;
+    margin-top: -40px;
+    margin-left: 150px;
+    background: gray;
+    position: relative;
+    font-size: 20px;
+}
+
+    .header-menu a {
+        width: auto;
+        height: 35px;
+        float: left;
+        font-family: 'Tahoma';
+        color: white;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-right: solid 1px white;
+        line-height: 35px;
+    }
+
+        .header-menu a:hover {
+            background: url(img/cizgi.png) right no-repeat dodgerblue;
+        }
+
+
+
+    .header-menu li {
+        width: auto;
+        height: 46px;
+        float: left;
+        position: relative;
+    }
+
+    .header-menu ul li ul {
+        width: 180px;
+        height: auto;
+        float: left;
+        position: absolute;
+        background: #6c6b6b;
+        top: 35px;
+        left: 1px;
+        z-index: 1;
+        display: none;
+    }
+
+        .header-menu ul li ul a {
+            width: 163px;
+            height: 30px;
+            line-height: 30px;
+            float: left;
+            padding: 0 0 0 17px;
+            border-top: dashed 1px gray;
+            background: none;
+        }
+
+        .header-menu ul li ul li {
+            height: 30px;
+            line-height: 30px;
+        }
+
+
+
+    .header-menu li:hover > ul {
+        display: block;
+    }
+
+
+
+    .header-menu ul li ul li ul {
+        width: 180px;
+        height: auto;
+        float: left;
+        position: absolute;
+        background: #6c6b6b;
+        top: 0px;
+        left: 180px;
+        z-index: 1;
+        display: none;
+    }
